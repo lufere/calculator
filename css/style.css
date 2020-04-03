@@ -1,0 +1,178 @@
+#calculator {
+    border: solid;
+    display: grid;
+    width: 300px;
+    height: 400px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 5px; 
+    background-color: rgb(187, 187, 187);
+    padding: 10px;
+    
+  }
+
+.calcBtn{
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+    color:white;
+    border:solid;
+    border-color:rgb(56, 56, 56);
+}
+
+.operateBtn{
+    background-color: rgb(128, 40, 40);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    height: 50px;
+    color:white;
+    border:solid;
+    border-color:rgb(85, 25, 25);
+}
+
+#display{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: right;
+    background-color: rgb(130, 155, 132);
+    margin:0;
+    margin-bottom: 10px;
+    line-height: 50px;
+    height: 50px;
+    border:solid;
+    border-color: black;
+    color:white;
+    padding-right: 10px;
+}
+
+#dotBtn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#zeroBtn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#equalBtn{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+#oneBtn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#twoBtn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#threeBtn{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#plusBtn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+#fourBtn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#fiveBtn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#sixBtn{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#minusBtn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#sevenBtn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#eightBtn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#nineBtn{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#multiplyBtn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#divideBtn{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#clearBtn{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
+#delBtn{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
