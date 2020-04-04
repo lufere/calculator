@@ -84,6 +84,18 @@ document.querySelectorAll(".calcBtn").forEach(function(button) {
             }
         }
         display.innerHTML = calcNumber[0];
+        calcNumber = [];
+        console.log(calcNumber);
+        console.log(calcOperator);
+    })
+
+    clear = document.querySelector ("#clearBtn");
+    clear.addEventListener("click", function(e){
+        console.log(calcNumber);
+        console.log(calcOperator);
+        display.innerHTML = "";
+        calcNumber = [];
+        calcOperator = [];
         console.log(calcNumber);
         console.log(calcOperator);
     })
