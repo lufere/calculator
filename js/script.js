@@ -100,6 +100,12 @@ document.querySelectorAll(".calcBtn").forEach(function(button) {
         console.log(calcOperator);
     })
 
+    del = document.querySelector ("#delBtn");
+    del.addEventListener("click", function(e){
+        var number = display.innerHTML;
+        display.innerHTML = number.substring(0, number.length - 1);
+    })
+    
 
 
 /*const one = document.querySelector('#oneBtn').innerHTML;
