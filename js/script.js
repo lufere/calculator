@@ -62,7 +62,10 @@ document.querySelectorAll(".calcBtn").forEach(function(button) {
 
     equal = document.querySelector ("#equalBtn");
     equal.addEventListener("click", function(e){
-        calcNumber.push(display.innerHTML);
+        if (display.innerHTML!="") calcNumber.push(display.innerHTML);
+        console.log(calcNumber.length);
+        console.log(calcOperator.length);
+        if (calcNumber.length != calcOperator.length){
         display.innerHTML = "";     
         console.log(calcNumber);
         console.log(calcOperator);
@@ -87,6 +90,7 @@ document.querySelectorAll(".calcBtn").forEach(function(button) {
         calcNumber = [];
         console.log(calcNumber);
         console.log(calcOperator);
+    }
     })
 
     clear = document.querySelector ("#clearBtn");
